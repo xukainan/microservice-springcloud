@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-server" />
+        <module name="microservice-eureka-client" />
+        <module name="microservice-eureka-client-consumer" />
+        <module name="microservice-eureka-producer" />
+        <module name="microservice-eureka-server" />
+        <module name="microservice-eureka-server-producer" />
+        <module name="microservice-eureka-user-hystrix" />
+        <module name="microservice-gataway-zuul" />
+        <module name="microservice-hystrix-dashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-eureka-client" target="1.8" />
+      <module name="microservice-eureka-client-consumer" target="1.8" />
+      <module name="microservice-eureka-client-producer" target="1.8" />
+      <module name="microservice-eureka-producer" target="1.8" />
+      <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-eureka-server-producer" target="1.8" />
+      <module name="microservice-eureka-user-hystrix" target="1.8" />
+      <module name="microservice-gataway-zuul" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
