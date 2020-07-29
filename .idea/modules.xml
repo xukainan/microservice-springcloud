@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" filepath="$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client-consumer.iml" filepath="$PROJECT_DIR$/microservice-eureka-client/microservice-eureka-client-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka-producer/microservice-eureka-producer.iml" filepath="$PROJECT_DIR$/microservice-eureka-producer/microservice-eureka-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" filepath="$PROJECT_DIR$/microservice-eureka-server/microservice-eureka-server.iml" />
