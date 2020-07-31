@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/microservice-eureka-server/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/microservice-eureka-client/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/microservice-eureka-client/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/microservice-config-client/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

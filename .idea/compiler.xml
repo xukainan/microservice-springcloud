@@ -2,18 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-eureka-producer" />
-        <module name="microservice-config-server" />
         <module name="microservice-eureka-server-producer" />
-        <module name="microservice-config-client" />
+        <module name="microservice-eureka-client" />
         <module name="microservice-eureka-client-consumer" />
         <module name="microservice-eureka-server" />
-        <module name="microservice-eureka-client" />
+        <module name="microservice-config-server" />
         <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-config-client" />
         <module name="microservice-gataway-zuul" />
         <module name="microservice-eureka-user-hystrix" />
       </profile>
@@ -23,10 +24,8 @@
       <module name="microservice-config-server" target="1.8" />
       <module name="microservice-eureka-client" target="1.8" />
       <module name="microservice-eureka-client-consumer" target="1.8" />
-      <module name="microservice-eureka-client-producer" target="1.8" />
       <module name="microservice-eureka-producer" target="1.8" />
       <module name="microservice-eureka-server" target="12" />
-      <module name="microservice-eureka-server-producer" target="1.8" />
       <module name="microservice-eureka-user-hystrix" target="1.8" />
       <module name="microservice-gataway-zuul" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
